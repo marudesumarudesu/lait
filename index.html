@@ -1,0 +1,679 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ホームページ制作5万円〜・運用月5,000円〜｜小さなお店のホームページ制作・運用</title>
+<meta name="description" content="仲介会社を通さず、エンジニアが直接お受けするから、ホームページ制作は5万円から、運用は月5,000円から。スマホ対応、Google検索・Googleマップ対策、AI検索への対応、セキュリティ対策も標準で含まれます。InstagramのDMから無料でご相談いただけます。">
+<meta property="og:type" content="website">
+<meta property="og:title" content="ホームページを5万円から作ります。プロが月5,000円から運用。">
+<meta property="og:description" content="スマホ対応・検索対策・AI検索対応込み。小さなお店のためのホームページ制作・運用。">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#123B2F">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15' fill='%23F5B800'/%3E%3Cpath d='M9 16.5l4.5 4.5L23 11.5' fill='none' stroke='%23123B2F' stroke-width='3.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Zen+Maru+Gothic:wght@700;900&display=swap">
+<script>
+  document.documentElement.classList.add('js');
+  setTimeout(function () { if (!window.__lpReady) document.documentElement.classList.remove('js'); }, 3000);
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "小さなお店のホームページ制作・運用",
+  "serviceType": "ホームページ制作・保守運用",
+  "areaServed": "JP",
+  "offers": [
+    { "@type": "Offer", "name": "ホームページ制作", "priceSpecification": { "@type": "PriceSpecification", "minPrice": 50000, "priceCurrency": "JPY" } },
+    { "@type": "Offer", "name": "保守・運用", "priceSpecification": { "@type": "UnitPriceSpecification", "minPrice": 5000, "priceCurrency": "JPY", "unitCode": "MON" } }
+  ]
+}
+</script>
+<style>
+:root{
+  color-scheme: light;
+  --heading:#123B2F; --text:#26302C; --muted:#56635E;
+  --paper:#FFFFFF; --tint:#EEF4F0; --desk:#DCE4E0; --card:#FFFFFF;
+  --line:#D5DFDA; --line-dash:#B7C6BF; --strong:#123B2F;
+  --accent:#F5B800; --accent-soft:#FFF4D1; --on-accent:#123B2F;
+  --btn-bg:#123B2F; --btn-text:#FFFFFF; --btn-shadow:#F5B800;
+  --band:#123B2F; --band-text:#FFFFFF; --band-muted:#D3E0DA; --band-line:#3F6357;
+  --chat:#FFFFFF; --cta:#F5B800; --cta-text:#123B2F;
+  --shadow:0 1px 2px rgba(18,59,47,.08),0 10px 28px rgba(18,59,47,.10);
+  --maru:'Zen Maru Gothic','Hiragino Maru Gothic ProN','Hiragino Sans','Noto Sans JP',sans-serif;
+  --sans:'Zen Kaku Gothic New','Hiragino Sans','Noto Sans JP','Yu Gothic',sans-serif;
+  --ease:cubic-bezier(.2,.7,.2,1);
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    color-scheme: dark;
+    --heading:#E6F0EB; --text:#D6E0DB; --muted:#9FB0A8;
+    --paper:#121B17; --tint:#18241F; --desk:#0A0F0D; --card:#1C2A24;
+    --line:#2C3B35; --line-dash:#4A5D55; --strong:#8FB3A3;
+    --accent-soft:#3A3010;
+    --btn-bg:#F5B800; --btn-text:#123B2F; --btn-shadow:#8FB3A3;
+    --band:#0E2C23; --band-line:#2F5246;
+    --chat:#1C2A24; --cta:#2E2710; --cta-text:#FFE7A3;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 28px rgba(0,0,0,.45);
+  }
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--desk);color:var(--text);font-family:var(--sans);font-size:16px;line-height:1.8;line-break:strict}
+a{color:var(--heading)}
+a:focus-visible,button:focus-visible{outline:3px solid #1F6FD1;outline-offset:3px}
+h1,h2,h3{margin:0;font-family:var(--maru);color:var(--heading)}
+p{margin:0}
+ul,ol{margin:0;padding:0;list-style:none}
+.ck{flex:none;width:18px;height:18px}
+
+/* A4 sheets on desktop, one continuous page on phones */
+.doc{display:flex;flex-direction:column;align-items:center;gap:40px;padding:48px 24px}
+.sheet{width:794px;max-width:100%;min-height:1123px;padding:64px 56px;display:flex;flex-direction:column;background:var(--paper);box-shadow:var(--shadow)}
+.sheet.tint{background:var(--tint)}
+@media (max-width:860px){
+  .doc{padding:0;gap:0}
+  .sheet{width:100%;min-height:0;padding:48px 20px;box-shadow:none}
+}
+
+.h2{font-weight:900;font-size:clamp(24px,4.4vw,36px);line-height:1.45}
+.lead{margin-top:16px;color:var(--muted)}
+.mt72{margin-top:72px}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:54px;padding:0 28px;border-radius:999px;font-weight:700;font-size:16px;text-decoration:none;transition:transform .2s var(--ease),box-shadow .2s var(--ease),background-color .2s,color .2s}
+.btn-main{background:var(--btn-bg);color:var(--btn-text)}
+.btn-ghost{padding:0 16px;color:var(--heading);text-decoration:underline;text-underline-offset:4px}
+.btn-line{min-height:44px;padding:0 20px;font-size:14px;border:2px solid var(--heading);color:var(--heading)}
+@media (hover:hover){
+  .btn-main:hover{color:var(--btn-text);transform:translateY(-2px);box-shadow:0 4px 0 var(--btn-shadow)}
+  .btn-line:hover{background:var(--heading);color:var(--paper)}
+}
+
+/* Cover */
+.cover{justify-content:space-between}
+.top{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.brand{font-family:var(--maru);font-weight:700;font-size:17px;color:var(--heading)}
+.hero{padding:20px 0 12px}
+.h1{font-weight:900;font-size:clamp(28px,6.8vw,48px);line-height:1.3}
+.line{display:block;overflow:hidden;padding-bottom:.04em}
+.line>span{display:block}
+.big{font-size:1.6em;letter-spacing:-.01em}
+.stamp{display:inline-block;margin-top:20px;padding:6px 18px;border-radius:10px;background:var(--accent);color:var(--on-accent);font-family:var(--maru);font-weight:900;font-size:clamp(18px,4vw,30px);line-height:1.4;transform:rotate(-1.5deg)}
+.stamp .num{font-size:1.35em}
+.sub{margin-top:20px;font-size:18px;font-weight:700;color:var(--heading);max-width:32em}
+.ctas{margin-top:24px;display:flex;flex-wrap:wrap;gap:12px}
+.safe{margin-top:16px;display:flex;align-items:flex-start;gap:10px;width:fit-content;max-width:100%;padding:8px 14px;border:1.5px solid var(--strong);border-radius:10px;background:var(--paper);font-size:15px;line-height:1.6}
+.safe svg{flex:none;width:20px;height:20px;margin-top:2px;fill:none;stroke:var(--heading);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.safe strong{font-family:var(--maru);font-weight:900;color:var(--heading)}
+
+@keyframes rise{from{transform:translateY(105%)}to{transform:none}}
+@keyframes stampIn{0%{opacity:0;transform:scale(1.25) rotate(-5deg)}60%{opacity:1;transform:scale(.97) rotate(-1deg)}100%{opacity:1;transform:rotate(-1.5deg)}}
+@keyframes fadeUp{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+.js .line>span{animation:rise .9s var(--ease) both}
+.js .line:nth-child(2)>span{animation-delay:.12s}
+.js .stamp{animation:stampIn .6s var(--ease) .7s both}
+.js .sub{animation:fadeUp .7s var(--ease) .9s both}
+.js .safe{animation:fadeUp .7s var(--ease) 1s both}
+.js .ctas{animation:fadeUp .7s var(--ease) 1.1s both}
+
+/* Site-build demo */
+.build{position:relative;margin-top:28px;padding-bottom:5%}
+.browser{aspect-ratio:16/6.2;display:flex;flex-direction:column;border:1.5px solid var(--line);border-radius:14px;background:var(--paper);overflow:hidden}
+.bar{flex:none;height:28px;display:flex;align-items:center;gap:6px;padding:0 10px;background:var(--tint);border-bottom:1px solid var(--line)}
+.bar i{flex:none;width:8px;height:8px;border-radius:50%;background:var(--line-dash)}
+.url svg{flex:none;width:10px;height:10px;fill:none;stroke:#1F9D5C;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+.url{margin-left:8px;min-width:0;display:inline-flex;align-items:center;gap:4px;font-size:11px;line-height:18px;color:var(--muted);background:var(--paper);border-radius:999px;padding:0 10px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.live{margin-left:auto;flex:none;display:inline-flex;align-items:center;gap:5px;font-size:11px;line-height:18px;font-weight:700;color:#17663F;background:#DDF3E6;border-radius:999px;padding:0 9px;transition:opacity .4s,transform .4s var(--ease)}
+.live::before{content:"";width:6px;height:6px;border-radius:50%;background:#1F9D5C;animation:ping 1.6s ease-out infinite}
+@keyframes ping{0%{box-shadow:0 0 0 0 rgba(31,157,92,.6)}100%{box-shadow:0 0 0 6px rgba(31,157,92,0)}}
+.site{flex:1;min-height:0;display:grid;grid-template-rows:11% 1fr 24%;gap:6%;padding:3.5% 5%;background-color:#FDF6EC;transition:background-color .6s}
+.s-head{display:flex;align-items:center;gap:3%}
+.s-hero{display:grid;grid-template-columns:1.1fr 1fr;gap:5%;min-height:0}
+.s-copy{display:flex;flex-direction:column;justify-content:center;gap:8%}
+.s-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:4%}
+.b{display:block;border:1.5px dashed transparent;border-radius:4px;background-color:var(--c);transition:opacity .45s var(--ease),transform .45s var(--ease),background-color .5s ease,border-color .5s ease,box-shadow .5s ease;transition-delay:calc(var(--i,0) * 60ms)}
+.logo{width:15%;height:62%;border-radius:6px;--c:#3D405B}
+.nav{width:7%;height:28%;--c:#CFC6BA}
+.nav.first{margin-left:auto}
+.t1{width:92%;height:17%;--c:#3D405B}
+.t2{width:78%;height:8%;--c:#BDB5AA}
+.t3{width:62%;height:8%;--c:#BDB5AA}
+.cbtn{width:36%;height:15%;border-radius:999px;--c:#E07A5F}
+.s-img{position:relative;overflow:hidden;border-radius:10px;--c:#F2CC8F}
+.sun{position:absolute;width:20%;aspect-ratio:1;top:16%;right:16%;border-radius:50%;background:#E07A5F;transition:opacity .5s .35s,transform .6s var(--ease) .35s}
+.hill{position:absolute;left:-15%;right:-15%;bottom:-38%;height:72%;border-radius:50%;background:#81B29A;transition:opacity .5s .2s,transform .6s var(--ease) .2s}
+.card{border-radius:8px;--c:#FFFFFF;box-shadow:0 2px 6px rgba(61,64,91,.10)}
+.phone{position:absolute;right:4%;bottom:0;width:19%;min-width:70px;aspect-ratio:9/18;border:3px solid #2B2F2D;border-radius:16px;background:#FDF6EC;padding:14px 9px 0;display:flex;flex-direction:column;gap:6px;overflow:hidden;box-shadow:0 14px 30px rgba(0,0,0,.22);transform:rotate(4deg);transition:opacity .6s var(--ease),transform .7s var(--ease)}
+.phone span{display:block;flex:none;border-radius:3px}
+.phone .p-head{height:5%;width:45%;background:#3D405B}
+.phone .p-img{position:relative;height:30%;border-radius:6px;background:#F2CC8F;overflow:hidden}
+.phone .p-img::before{content:"";position:absolute;left:-15%;right:-15%;bottom:-40%;height:70%;border-radius:50%;background:#81B29A}
+.phone .p-t1{height:5%;width:90%;background:#3D405B}
+.phone .p-t2{height:3.5%;width:70%;background:#BDB5AA}
+.phone .p-btn{height:8%;width:55%;border-radius:999px;background:#E07A5F}
+.phone .p-card{height:14%;border-radius:6px;background:#FFFFFF;box-shadow:0 2px 5px rgba(61,64,91,.12)}
+
+.js .build:not(.final) .site{background-color:transparent}
+.js .build:not(.final).s2 .site{background-color:#FDF6EC}
+.js .build:not(.final) .b{opacity:0;transform:translateY(6px);background-color:transparent;border-color:var(--line-dash);box-shadow:none}
+.js .build:not(.final).s1 .b{opacity:1;transform:none}
+.js .build:not(.final).s2 .b{background-color:var(--c);border-color:transparent}
+.js .build:not(.final).s2 .card{box-shadow:0 2px 6px rgba(61,64,91,.10)}
+.js .build:not(.final) .sun{opacity:0;transform:scale(.3)}
+.js .build:not(.final) .hill{opacity:0;transform:translateY(30%)}
+.js .build:not(.final).s2 .sun,.js .build:not(.final).s2 .hill{opacity:1;transform:none}
+.js .build:not(.final) .phone{opacity:0;transform:translateY(28px) rotate(8deg)}
+.js .build:not(.final).s3 .phone{opacity:1;transform:rotate(4deg)}
+.js .build:not(.final) .live{opacity:0;transform:scale(.7)}
+.js .build:not(.final).s4 .live{opacity:1;transform:none}
+.build.reset,.build.reset *{transition:none !important}
+
+.progress{margin-top:14px;display:flex;align-items:center;justify-content:space-between;gap:4px 12px;flex-wrap:wrap}
+.steps{flex:1 1 280px;min-width:0;display:flex;gap:6px}
+.steps li{flex:1 1 0;min-width:0;font-size:12px;font-weight:700;line-height:1.4;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;transition:color .3s}
+.steps li::before{content:"";display:block;height:4px;margin-bottom:6px;border-radius:2px;background-color:var(--line);background-image:linear-gradient(var(--accent),var(--accent));background-repeat:no-repeat;background-size:0% 100%;transition:background-size .6s var(--ease)}
+.steps li.done{color:var(--heading)}
+.steps li.done::before{background-size:100% 100%}
+.replay{flex:none;min-height:44px;padding:8px 4px;border:0;background:none;font:inherit;font-size:13px;font-weight:700;color:var(--heading);text-decoration:underline;text-underline-offset:3px;cursor:pointer}
+
+.inc{border-top:2px solid var(--strong);padding-top:18px}
+.inc-label{margin-bottom:10px;font-size:13px;font-weight:700;color:var(--muted)}
+.inc ul{display:flex;flex-wrap:wrap;gap:8px 26px}
+.inc li{display:flex;align-items:center;gap:8px;font-size:15px;font-weight:700;color:var(--heading)}
+
+/* Scroll reveal */
+.js [data-reveal]{opacity:0;transform:translateY(18px);transition:opacity .7s ease,transform .7s var(--ease);transition-delay:var(--d,0ms)}
+.js [data-reveal].in{opacity:1;transform:none}
+
+/* Problems & reasons */
+.probs{margin-top:28px;border-top:1px solid var(--line)}
+.probs li{display:flex;gap:14px;align-items:flex-start;padding:14px 0;border-bottom:1px solid var(--line);font-size:16px}
+.dot{flex:none;width:26px;height:26px;margin-top:2px;border-radius:50%;background:var(--accent);color:var(--on-accent);display:flex;align-items:center;justify-content:center}
+.dot .ck{width:15px;height:15px}
+.reasons{margin-top:32px;display:flex;flex-wrap:wrap;gap:32px 24px}
+.reasons li{flex:1 1 190px;min-width:0;border-top:1px solid var(--line);padding-top:20px}
+.tick{display:block;width:36px;height:6px;border-radius:3px;background:var(--accent)}
+.js .reasons li[data-reveal] .tick{width:0;transition:width .6s var(--ease) calc(var(--d,0ms) + 250ms)}
+.js .reasons li.in .tick{width:36px}
+.reasons h3{margin:16px 0 8px;font-weight:700;font-size:19px;line-height:1.5}
+.reasons p{font-size:15px;line-height:1.75}
+
+/* Pricing */
+.plans{margin-top:36px;display:flex;flex-wrap:wrap;gap:20px}
+.plan{flex:1 1 280px;min-width:0;padding:28px;background:var(--card);border:2px solid var(--strong);border-radius:16px;transition:transform .25s var(--ease),box-shadow .25s var(--ease)}
+@media (hover:hover){.plan:hover{transform:translateY(-4px);box-shadow:0 8px 0 var(--accent)}}
+.plan h3{font-weight:700;font-size:20px}
+.price{margin-top:10px;font-family:var(--maru);font-weight:900;font-size:clamp(28px,5vw,36px);line-height:1.3;color:var(--heading)}
+.price-note{margin-top:4px;font-size:13px;color:var(--muted)}
+.feat{margin-top:20px;padding-top:20px;border-top:1px dashed var(--line-dash);display:flex;flex-direction:column;gap:10px}
+.feat li{display:flex;gap:10px;align-items:flex-start;font-size:15px;line-height:1.6}
+.feat .ck{margin-top:3px;color:var(--heading)}
+.opt{margin-top:20px;padding:20px 24px;background:var(--card);border-radius:12px;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:8px 24px}
+.opt-body{flex:1 1 300px;min-width:0}
+.opt-title{font-weight:700;color:var(--heading)}
+.opt-desc{margin-top:4px;font-size:14px}
+.opt-price{font-family:var(--maru);font-weight:900;font-size:20px;color:var(--heading)}
+.note{margin-top:16px;font-size:13px;color:var(--muted)}
+.after{margin-top:40px}
+
+/* AI search */
+.sheet.dark{background:var(--band);color:var(--band-text)}
+.dark .h2{color:var(--band-text)}
+.dark .lead{margin-top:20px;max-width:36em;color:var(--band-muted)}
+.chat{margin:36px 0 0;width:100%;max-width:520px;padding:24px;border-radius:20px;background:var(--chat);color:var(--text);display:flex;flex-direction:column;gap:14px}
+.chat figcaption{font-size:12px;color:var(--muted)}
+.q{position:relative;align-self:flex-end;max-width:88%;padding:12px 16px;border-radius:16px 16px 4px 16px;background:var(--tint);font-size:15px;line-height:1.6}
+.q-type{display:none}
+.chat.armed .q-ghost{color:transparent}
+.chat.armed .q-type{display:block;position:absolute;left:16px;right:16px;top:12px}
+.q-type.caret::after{content:"";display:inline-block;width:2px;height:1em;margin-left:2px;vertical-align:-2px;background:currentColor;animation:blink 1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+.a{position:relative;align-self:flex-start;max-width:94%;padding:14px 16px;border:1px solid var(--line);border-radius:16px 16px 16px 4px;font-size:15px;line-height:1.6;transition:opacity .4s,transform .4s var(--ease)}
+.a ol{margin-top:10px;padding-left:1.4em;list-style:decimal}
+.a li+li{margin-top:6px}
+.typing{position:absolute;left:16px;top:18px;display:flex;gap:5px;opacity:0;transition:opacity .25s}
+.typing i{width:7px;height:7px;border-radius:50%;background:var(--muted);animation:bob 1s ease-in-out infinite}
+.typing i:nth-child(2){animation-delay:.15s}
+.typing i:nth-child(3){animation-delay:.3s}
+@keyframes bob{0%,80%,100%{transform:none;opacity:.4}40%{transform:translateY(-4px);opacity:1}}
+.chat.armed .a{opacity:0;transform:translateY(8px)}
+.chat.armed.thinking .a,.chat.armed.answer .a{opacity:1;transform:none}
+.chat.armed.thinking .typing{opacity:1}
+.chat.armed .a-body p,.chat.armed .a-body li{opacity:0;transform:translateY(6px);transition:opacity .4s,transform .4s var(--ease);transition-delay:calc(var(--i,0) * 320ms)}
+.chat.armed.answer .a-body p,.chat.armed.answer .a-body li{opacity:1;transform:none}
+.slot{padding:14px 16px;border:2px dashed var(--heading);border-radius:12px;background:var(--accent-soft);color:var(--heading);font-weight:700;text-align:center;line-height:1.6;transition:opacity .5s,transform .5s var(--ease)}
+.chat.armed .slot{opacity:0;transform:scale(.96)}
+.chat.armed.slot-in .slot{opacity:1;transform:none;animation:glow 1.4s ease .5s 3}
+@keyframes glow{0%{box-shadow:0 0 0 0 rgba(245,184,0,.55)}100%{box-shadow:0 0 0 14px rgba(245,184,0,0)}}
+.terms{margin:40px 0 0;display:flex;flex-wrap:wrap;gap:16px 24px}
+.terms div{flex:1 1 260px;min-width:0;padding-top:14px;border-top:1px solid var(--band-line)}
+.terms dt{font-weight:700;color:var(--accent)}
+.terms dd{margin:2px 0 0;font-size:15px;color:var(--band-muted)}
+
+/* Security */
+.scan{margin-top:32px;border-radius:16px;overflow:hidden;background:#0F1A16;color:#D6E0DB;border:1px solid var(--line)}
+.scan-bar{display:flex;align-items:center;gap:6px;padding:10px 14px;background:#16241E;font-size:12px;color:#9FB0A8}
+.scan-bar i{flex:none;width:8px;height:8px;border-radius:50%;background:#3A4C45}
+.scan-bar span{margin-left:8px}
+.scan-prog{height:3px;background:#22332C}
+.scan-prog span{display:block;height:100%;background:var(--accent);transform-origin:left center}
+.scan-body{padding:18px 20px 20px}
+.scan-cmd{margin-bottom:8px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:13px;color:#8FB3A3}
+.scan-row{display:flex;align-items:baseline;gap:10px;padding:7px 0;font-size:15px;line-height:1.6}
+.scan-row .lbl{min-width:0}
+.scan-row .dots{flex:1;min-width:16px;border-bottom:1px dotted #3A4C45;transform:translateY(-4px)}
+.scan-row .val{flex:none;position:relative;font-weight:700;color:#5FD39A}
+.scan-row .wait{position:absolute;right:0;top:0;padding-left:6px;background:#0F1A16;white-space:nowrap;font-weight:400;color:#9FB0A8;opacity:0}
+.scan-done{margin-top:12px;padding-top:12px;border-top:1px solid #22332C;display:flex;align-items:center;gap:8px;font-weight:700;color:var(--accent)}
+.scan.armed .scan-prog span{transform:scaleX(0)}
+.scan.armed.run .scan-prog span{transform:none;transition:transform 2.8s linear}
+.scan.armed .scan-row{opacity:0;transform:translateY(6px)}
+.scan.armed.run .scan-row{opacity:1;transform:none;transition:opacity .3s,transform .3s var(--ease);transition-delay:calc(var(--i) * 480ms)}
+.scan.armed .res{opacity:0}
+.scan.armed .wait{opacity:1}
+.scan.armed.run .res{opacity:1;transition:opacity .25s;transition-delay:calc(var(--i) * 480ms + 380ms)}
+.scan.armed.run .wait{opacity:0;transition:opacity .2s;transition-delay:calc(var(--i) * 480ms + 360ms)}
+.scan.armed .scan-done{opacity:0;transform:translateY(6px)}
+.scan.armed.run .scan-done{opacity:1;transform:none;transition:opacity .4s,transform .4s var(--ease);transition-delay:2.9s}
+.guards{margin-top:36px;display:flex;flex-wrap:wrap;gap:24px}
+.guards li{flex:1 1 280px;min-width:0;display:flex;gap:14px;align-items:flex-start}
+.g-ico{flex:none;width:40px;height:40px;border-radius:12px;background:var(--tint);color:var(--heading);display:flex;align-items:center;justify-content:center}
+.g-ico svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.guards h3{font-weight:700;font-size:17px;line-height:1.5}
+.guards p{margin-top:4px;font-size:14px;line-height:1.75}
+.sec-note{margin-top:28px;font-size:14px;color:var(--muted)}
+
+/* Flow & about */
+.flow{margin-top:36px;display:flex;flex-wrap:wrap;gap:32px 20px}
+.flow li{position:relative;flex:1 1 140px;min-width:0;padding-top:18px}
+.flow li::before{content:"";position:absolute;left:0;right:0;top:0;height:4px;background:var(--strong);transform-origin:left center}
+.js .flow li[data-reveal]::before{transform:scaleX(0);transition:transform .8s var(--ease) calc(var(--d,0ms) + 150ms)}
+.js .flow li.in::before{transform:none}
+.num-big{font-family:var(--maru);font-weight:900;font-size:40px;line-height:1;color:var(--heading)}
+.flow h3{margin:14px 0 6px;font-weight:700;font-size:18px;line-height:1.5}
+.flow p{font-size:14px;line-height:1.75}
+.about{margin-top:64px;padding:32px 28px;border-radius:16px;background:var(--tint)}
+.about h2{font-weight:900;font-size:clamp(20px,3.2vw,26px);line-height:1.45}
+.about-body{margin-top:16px}
+.about-h{margin:24px 0 6px;font-size:15px;font-weight:700;color:var(--heading)}
+.about-others{font-size:15px;color:var(--muted)}
+.about-small{margin-top:12px;font-size:13px;color:var(--muted)}
+
+/* Back cover */
+.sheet.cta{justify-content:center;text-align:center;background:var(--cta);color:var(--cta-text)}
+.cta h2{font-weight:900;font-size:clamp(28px,6vw,48px);line-height:1.4;color:var(--cta-text)}
+.cta-price{margin-top:28px;font-family:var(--maru);font-weight:700;font-size:clamp(17px,3vw,22px);line-height:1.6}
+.cta-text{margin:20px auto 0;max-width:28em}
+.cta .btn{margin-top:36px;min-height:56px;padding:0 32px;font-size:17px}
+.handle{margin-top:16px;font-size:15px;font-weight:700}
+.made{margin-top:56px;font-size:13px;opacity:.85}
+
+@page{size:A4;margin:0}
+@media print{
+  body{background:#FFFFFF}
+  .doc{padding:0;gap:0}
+  .sheet{width:210mm;min-height:297mm;box-shadow:none;break-after:page}
+  *{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .js [data-reveal]{opacity:1 !important;transform:none !important}
+  .progress{display:none}
+  .chat.armed .a,.chat.armed .slot,.chat.armed .a-body p,.chat.armed .a-body li,
+  .scan.armed .scan-row,.scan.armed .res,.scan.armed .scan-done,.scan.armed .scan-prog span{opacity:1 !important;transform:none !important}
+  .chat.armed .q-ghost{color:inherit !important}
+  .chat.armed .q-type,.scan.armed .wait{display:none !important}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation:none !important;transition:none !important}
+}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="ck" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+</svg>
+
+<main class="doc">
+
+<!-- 1. 表紙 -->
+<section class="sheet tint cover" aria-labelledby="h-top">
+  <header class="top">
+    <span class="brand">ホームページ制作・運用</span>
+    <a class="btn btn-line" href="https://ig.me/m/azarashi_chan_dayo" target="_blank" rel="noopener">無料で相談する</a>
+  </header>
+
+  <div class="hero">
+    <h1 class="h1" id="h-top"><span class="line"><span>ホームページを</span></span><span class="line"><span><span class="big">5万円</span>から作ります。</span></span></h1>
+    <p class="stamp">プロが月<span class="num">5,000円</span>から運用。</p>
+    <p class="sub">仲介会社を通さず、エンジニアが直接お受けするから、この価格。</p>
+    <p class="safe"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg><span><strong>セキュリティ対策込み。</strong>乗っ取られにくく、情報漏れの心配が少ない作りです。</span></p>
+    <div class="ctas">
+      <a class="btn btn-main" href="https://ig.me/m/azarashi_chan_dayo" target="_blank" rel="noopener">無料で見積もりを相談する</a>
+      <a class="btn btn-ghost" href="#price">料金を見る</a>
+    </div>
+
+    <div class="build" id="build" role="img" aria-label="ホームページが設計、デザイン、スマホ対応を経て公開されるまでのアニメーション">
+      <div class="browser" aria-hidden="true">
+        <div class="bar"><i></i><i></i><i></i><span class="url"><svg viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>https://your-shop.jp</span><span class="live">公開中</span></div>
+        <div class="site">
+          <div class="s-head">
+            <span class="b logo" style="--i:0"></span>
+            <span class="b nav first" style="--i:1"></span>
+            <span class="b nav" style="--i:2"></span>
+            <span class="b nav" style="--i:3"></span>
+          </div>
+          <div class="s-hero">
+            <div class="s-copy">
+              <span class="b t1" style="--i:4"></span>
+              <span class="b t2" style="--i:5"></span>
+              <span class="b t3" style="--i:6"></span>
+              <span class="b cbtn" style="--i:7"></span>
+            </div>
+            <div class="b s-img" style="--i:5"><span class="sun"></span><span class="hill"></span></div>
+          </div>
+          <div class="s-cards">
+            <span class="b card" style="--i:8"></span>
+            <span class="b card" style="--i:9"></span>
+            <span class="b card" style="--i:10"></span>
+          </div>
+        </div>
+      </div>
+      <div class="phone" aria-hidden="true"><span class="p-head"></span><span class="p-img"></span><span class="p-t1"></span><span class="p-t2"></span><span class="p-btn"></span><span class="p-card"></span></div>
+    </div>
+    <div class="progress">
+      <ol class="steps" id="steps" aria-hidden="true">
+        <li class="done">設計</li><li class="done">デザイン</li><li class="done">スマホ対応</li><li class="done">公開</li>
+      </ol>
+      <button class="replay" id="replay" type="button">もう一度見る</button>
+    </div>
+  </div>
+
+  <div class="inc">
+    <p class="inc-label">制作費に標準で含まれるもの</p>
+    <ul>
+      <li><svg class="ck" aria-hidden="true"><use href="#ck"/></svg>スマホ対応</li>
+      <li><svg class="ck" aria-hidden="true"><use href="#ck"/></svg>検索・マップ対策</li>
+      <li><svg class="ck" aria-hidden="true"><use href="#ck"/></svg>AI検索への対応</li>
+      <li><svg class="ck" aria-hidden="true"><use href="#ck"/></svg>セキュリティ対策</li>
+    </ul>
+  </div>
+</section>
+
+<!-- 2. お悩みと理由 -->
+<section class="sheet" aria-labelledby="h-probs">
+  <h2 class="h2" id="h-probs">こんなこと、ありませんか？</h2>
+  <p class="lead">ひとつでも当てはまったら、まずはお気軽にご相談ください。ご予算に合わせた形をご提案します。</p>
+  <ul class="probs">
+    <li data-reveal style="--d:0ms"><span class="dot"><svg class="ck" aria-hidden="true"><use href="#ck"/></svg></span><span>見積もりを取ったら思ったより高くて、ホームページをあきらめた</span></li>
+    <li data-reveal style="--d:80ms"><span class="dot"><svg class="ck" aria-hidden="true"><use href="#ck"/></svg></span><span>作ったあとの更新や管理に、いくらかかるのか不安</span></li>
+    <li data-reveal style="--d:160ms"><span class="dot"><svg class="ck" aria-hidden="true"><use href="#ck"/></svg></span><span>営業時間やメニューを変えるたびに、修正を頼むのが手間</span></li>
+    <li data-reveal style="--d:240ms"><span class="dot"><svg class="ck" aria-hidden="true"><use href="#ck"/></svg></span><span>ホームページがない、または何年も更新していない</span></li>
+    <li data-reveal style="--d:320ms"><span class="dot"><svg class="ck" aria-hidden="true"><use href="#ck"/></svg></span><span>「地域名＋業種」で検索しても、自分のお店が出てこない</span></li>
+    <li data-reveal style="--d:400ms"><span class="dot"><svg class="ck" aria-hidden="true"><use href="#ck"/></svg></span><span>ホームページの乗っ取りや、情報漏れが心配</span></li>
+  </ul>
+
+  <h2 class="h2 mt72">手頃な価格で続けられる理由</h2>
+  <ul class="reasons">
+    <li data-reveal style="--d:0ms">
+      <span class="tick" aria-hidden="true"></span>
+      <h3>仲介会社を通さず、<br>エンジニアが直接</h3>
+      <p>営業会社や代理店を間にはさまず、エンジニアが直接お受けします。中間マージンがかからない分、料金をおさえられます。</p>
+    </li>
+    <li data-reveal style="--d:120ms">
+      <span class="tick" aria-hidden="true"></span>
+      <h3>AIで制作の手間を<br>減らしています</h3>
+      <p>文章の下書きや構成づくりなど、時間のかかる作業にAIを活用。減らせた手間の分を、料金に反映しています。</p>
+    </li>
+    <li data-reveal style="--d:240ms">
+      <span class="tick" aria-hidden="true"></span>
+      <h3>作った本人が、<br>運用まで担当します</h3>
+      <p>制作と管理を同じエンジニアが担当するので、引き継ぎの手間や費用がかかりません。修正のご依頼もDMひとつで済みます。</p>
+    </li>
+  </ul>
+</section>
+
+<!-- 3. 料金 -->
+<section class="sheet tint" id="price" aria-labelledby="h-price">
+  <h2 class="h2" id="h-price">料金</h2>
+  <p class="lead">制作と運用、それぞれシンプルな料金です。</p>
+  <div class="plans" data-reveal>
+    <div class="plan">
+      <h3>ホームページ制作</h3>
+      <p class="price">50,000円〜</p>
+      <p class="price-note">初期費用（1回のみ）</p>
+      <ul class="feat">
+        <li><svg class="ck" aria-hidden="true"><use href="#ck"/></svg><span>スマートフォン対応</span></li>
+        <li><svg class="ck" aria-hidden="true"><use href="#ck"/></svg><span>Google検索・Googleマップで見つけてもらうための対策</span></li>
+        <li><svg class="ck" aria-hidden="true"><use href="#ck"/></svg><span>ChatGPTなど、AI検索への対応</span></li>
+        <li><svg class="ck" aria-hidden="true"><use href="#ck"/></svg><span>口コミ簡易診断（載せる内容を決める参考に）</span></li>
+      </ul>
+    </div>
+    <div class="plan">
+      <h3>保守・運用</h3>
+      <p class="price">月額5,000円〜</p>
+      <p class="price-note">毎月</p>
+      <ul class="feat">
+        <li><svg class="ck" aria-hidden="true"><use href="#ck"/></svg><span>営業時間・メニューなどの更新</span></li>
+        <li><svg class="ck" aria-hidden="true"><use href="#ck"/></svg><span>サーバー・ドメインの管理</span></li>
+        <li><svg class="ck" aria-hidden="true"><use href="#ck"/></svg><span>表示の不具合・セキュリティの確認</span></li>
+        <li><svg class="ck" aria-hidden="true"><use href="#ck"/></svg><span>口コミの定期チェック</span></li>
+      </ul>
+    </div>
+  </div>
+  <div class="opt" data-reveal style="--d:120ms">
+    <div class="opt-body">
+      <p class="opt-title">オプション：口コミ詳細分析レポート</p>
+      <p class="opt-desc">近くの競合店との比較を含めて詳しく分析し、改善の優先順位とあわせてご報告します。</p>
+    </div>
+  </div>
+  <p class="note">※表示価格はすべて税込です。ページ数や内容に応じてお見積もりします。</p>
+  <div class="after">
+    <a class="btn btn-main" href="https://ig.me/m/azarashi_chan_dayo" target="_blank" rel="noopener">この料金で相談する</a>
+  </div>
+</section>
+
+<!-- 4. AI検索 -->
+<section class="sheet dark" aria-labelledby="h-ai">
+  <h2 class="h2" id="h-ai">価格はおさえても、<br>見つけてもらう工夫は省きません。</h2>
+  <p class="lead">お店を探すとき、Google検索やGoogleマップだけでなく、ChatGPTなどのAIに「近くのおすすめ」を聞く人も出てきました。手頃な料金でも、検索・地図・AIのそれぞれで見つけてもらうための対策を標準で行います。</p>
+  <figure class="chat" id="chat">
+    <figcaption>AIに質問したときのイメージ</figcaption>
+    <div class="q"><span class="q-ghost">〇〇駅の近くで、子ども連れでも入りやすいランチのお店はある？</span><span class="q-type" aria-hidden="true"></span></div>
+    <div class="a">
+      <div class="typing" aria-hidden="true"><i></i><i></i><i></i></div>
+      <div class="a-body">
+        <p style="--i:0">条件に合いそうなお店を紹介します。</p>
+        <ol>
+          <li style="--i:1">A店　キッズメニューと座敷席がある</li>
+          <li style="--i:2">B店　ベビーカーのまま入店できる</li>
+          <li style="--i:3">C店　駅から歩いてすぐ</li>
+        </ol>
+      </div>
+    </div>
+    <p class="slot">あなたのお店は、この中に入っていますか？</p>
+  </figure>
+  <dl class="terms">
+    <div data-reveal><dt>SEO</dt><dd>Google検索で見つけてもらいやすくする対策</dd></div>
+    <div data-reveal style="--d:80ms"><dt>MEO</dt><dd>Googleマップで見つけてもらいやすくする対策</dd></div>
+    <div data-reveal style="--d:160ms"><dt>AI検索への対応</dt><dd>ChatGPTなどのAIが答えるとき、お店の情報が正しく使われやすくする工夫</dd></div>
+    <div data-reveal style="--d:240ms"><dt>口コミ分析</dt><dd>お客さんに評価されているポイントを口コミから見つけ、サイトの中心に据えます</dd></div>
+  </dl>
+</section>
+
+<!-- 5. セキュリティ -->
+<section class="sheet" id="security" aria-labelledby="h-sec">
+  <h2 class="h2" id="h-sec">ホームページの<br>セキュリティ、大丈夫ですか？</h2>
+  <p class="lead">企業がサイバー攻撃を受けたというニュースを、目にすることが増えました。狙われるのは大企業だけではありません。更新されずに放置されたホームページは、入り口を機械的に探して回る攻撃の標的になることがあります。</p>
+  <div class="scan" id="scan" role="img" aria-label="お店のホームページのセキュリティを項目ごとに確認し、問題が見つからなかったことを示すイメージ">
+    <div class="scan-bar" aria-hidden="true"><i></i><i></i><i></i><span>セキュリティチェック（イメージ）</span></div>
+    <div class="scan-prog" aria-hidden="true"><span></span></div>
+    <div class="scan-body" aria-hidden="true">
+      <p class="scan-cmd">$ check https://your-shop.jp</p>
+      <div class="scan-row" style="--i:0"><span class="lbl">通信の暗号化（https）</span><span class="dots"></span><span class="val"><span class="res">OK</span><span class="wait">確認中…</span></span></div>
+      <div class="scan-row" style="--i:1"><span class="lbl">管理画面・ログイン画面</span><span class="dots"></span><span class="val"><span class="res">なし</span><span class="wait">確認中…</span></span></div>
+      <div class="scan-row" style="--i:2"><span class="lbl">データベース</span><span class="dots"></span><span class="val"><span class="res">なし</span><span class="wait">確認中…</span></span></div>
+      <div class="scan-row" style="--i:3"><span class="lbl">サイトに保存している個人情報</span><span class="dots"></span><span class="val"><span class="res">なし</span><span class="wait">確認中…</span></span></div>
+      <div class="scan-row" style="--i:4"><span class="lbl">変更履歴のバックアップ</span><span class="dots"></span><span class="val"><span class="res">あり</span><span class="wait">確認中…</span></span></div>
+      <p class="scan-done"><svg class="ck" aria-hidden="true"><use href="#ck"/></svg>問題は見つかりませんでした</p>
+    </div>
+  </div>
+  <ul class="guards">
+    <li data-reveal>
+      <span class="g-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M14 3H6a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V8z"/><path d="M14 3v5h5"/></svg></span>
+      <div><h3>管理画面のないシンプルな作り</h3><p>ログイン画面やデータベースを持たない「静的サイト」で作るので、乗っ取りの入り口になる部分を最小限にできます。</p></div>
+    </li>
+    <li data-reveal style="--d:80ms">
+      <span class="g-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg></span>
+      <div><h3>通信はすべて暗号化</h3><p>アドレスが「https」で始まる、鍵マーク付きの暗号化された通信で公開します。</p></div>
+    </li>
+    <li data-reveal style="--d:160ms">
+      <span class="g-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/></svg></span>
+      <div><h3>個人情報をサイトに置かない</h3><p>お問い合わせや予約は、InstagramのDMや予約サービスにつなぎます。お客さんの情報をお店のサイトに貯めません。</p></div>
+    </li>
+    <li data-reveal style="--d:240ms">
+      <span class="g-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/></svg></span>
+      <div><h3>変更履歴から元に戻せる</h3><p>これまでの変更をすべて記録しているので、万一のときも以前の状態に戻せます。</p></div>
+    </li>
+  </ul>
+  <p class="sec-note">運用プランでは、公開後も毎月の確認を続けます。</p>
+</section>
+
+<!-- 6. 流れと運営 -->
+<section class="sheet" id="flow" aria-labelledby="h-flow">
+  <h2 class="h2" id="h-flow">ご相談から公開まで</h2>
+  <ol class="flow">
+    <li data-reveal style="--d:0ms">
+      <p class="num-big">1</p>
+      <h3>DMで相談</h3>
+      <p>InstagramのDMで、お店の名前とご希望をお送りください。担当エンジニアが直接お返事します。</p>
+    </li>
+    <li data-reveal style="--d:150ms">
+      <p class="num-big">2</p>
+      <h3>ヒアリング・<br>お見積もり</h3>
+      <p>お店の情報とご予算をうかがい、必要なページと料金をご提案します。口コミの簡易診断もお渡しします。</p>
+    </li>
+    <li data-reveal style="--d:300ms">
+      <p class="num-big">3</p>
+      <h3>制作</h3>
+      <p>内容を確認いただきながら制作します。掲載する文章づくりもお手伝いします。</p>
+    </li>
+    <li data-reveal style="--d:450ms">
+      <p class="num-big">4</p>
+      <h3>公開・<br>運用スタート</h3>
+      <p>公開後の更新や管理は、まとめてお任せください。</p>
+    </li>
+  </ol>
+  <div class="about" data-reveal>
+    <h2>運営について</h2>
+    <p class="about-body">私たちは、AI・データ分析・システム開発を使って、企業や店舗の課題を解決する事業を行っています。大切にしているのは「AIを使うこと」ではなく、「実際に課題を解決すること」。小さなお店の身近な困りごとから、専門的なデータ活用まで対応します。</p>
+    <p class="about-h">そのほかの取り組み</p>
+    <p class="about-others">AI活用診断・コンサルティング（LAIT）、業務効率化・DX支援、データ分析・機械学習、法人向けAI研修・導入支援、業界特化型システム開発、AIツール開発</p>
+    <p class="about-small">※一部、企画・開発・検証中のサービスを含みます。</p>
+  </div>
+</section>
+
+<!-- 7. 裏表紙 -->
+<section class="sheet cta" id="contact" aria-labelledby="h-cta">
+  <div data-reveal>
+    <h2 id="h-cta">まずは、無料で<br>お見積もりを。</h2>
+    <p class="cta-price">制作 5万円〜 ／ 運用 月5,000円〜</p>
+    <p class="cta-text">InstagramのDMで「ホームページの相談」とお店の名前を送ってください。仲介会社を通さず、制作を担当するエンジニアが直接ご提案します。</p>
+    <a class="btn btn-main" href="https://ig.me/m/azarashi_chan_dayo" target="_blank" rel="noopener">InstagramでDMを送る</a>
+    <p class="handle">@azarashi_chan_dayo</p>
+    <p class="made">このページも、私たちが制作しました。</p>
+  </div>
+</section>
+
+</main>
+
+<script>
+(function () {
+  window.__lpReady = true;
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var hasIO = 'IntersectionObserver' in window;
+
+  /* Scroll reveal */
+  var els = document.querySelectorAll('[data-reveal]');
+  if (reduce || !hasIO) {
+    els.forEach(function (e) { e.classList.add('in'); });
+  } else {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); }
+      });
+    }, { threshold: 0.15, rootMargin: '0px 0px -6% 0px' });
+    els.forEach(function (e) { io.observe(e); });
+  }
+
+  /* Site-build demo */
+  var build = document.getElementById('build');
+  var replay = document.getElementById('replay');
+  var steps = Array.prototype.slice.call(document.querySelectorAll('#steps li'));
+  var timers = [];
+  function setStep(n) {
+    for (var k = 1; k <= 4; k++) build.classList.toggle('s' + k, n >= k);
+    steps.forEach(function (li, i) { li.classList.toggle('done', i < n); });
+  }
+  function run() {
+    timers.forEach(clearTimeout);
+    timers = [];
+    build.classList.add('reset');
+    setStep(0);
+    void build.offsetWidth;
+    build.classList.remove('reset');
+    [[450, 1], [1800, 2], [3200, 3], [4500, 4]].forEach(function (p) {
+      timers.push(setTimeout(function () { setStep(p[1]); }, p[0]));
+    });
+  }
+  if (reduce) {
+    build.classList.add('final');
+    setStep(4);
+    replay.hidden = true;
+  } else {
+    run();
+    replay.addEventListener('click', run);
+  }
+
+  /* AI chat typing */
+  var chat = document.getElementById('chat');
+  if (chat && !reduce && hasIO) {
+    var qt = chat.querySelector('.q-type');
+    var full = chat.querySelector('.q-ghost').textContent;
+    var play = function () {
+      var i = 0;
+      qt.classList.add('caret');
+      var tick = setInterval(function () {
+        i++;
+        qt.textContent = full.slice(0, i);
+        if (i >= full.length) {
+          clearInterval(tick);
+          setTimeout(function () { qt.classList.remove('caret'); chat.classList.add('thinking'); }, 300);
+          setTimeout(function () { chat.classList.add('answer'); }, 1500);
+          setTimeout(function () { chat.classList.remove('thinking'); }, 1550);
+          setTimeout(function () { chat.classList.add('slot-in'); }, 1500 + 4 * 320 + 400);
+        }
+      }, 50);
+    };
+    chat.classList.add('armed');
+    var io2 = new IntersectionObserver(function (entries) {
+      if (entries.some(function (e) { return e.isIntersecting; })) { io2.disconnect(); play(); }
+    }, { threshold: 0.45 });
+    io2.observe(chat);
+  }
+
+  /* Security check */
+  var scan = document.getElementById('scan');
+  if (scan && !reduce && hasIO) {
+    scan.classList.add('armed');
+    var io3 = new IntersectionObserver(function (entries) {
+      if (entries.some(function (e) { return e.isIntersecting; })) { io3.disconnect(); scan.classList.add('run'); }
+    }, { threshold: 0.4 });
+    io3.observe(scan);
+  }
+})();
+</script>
+</body>
+</html>
